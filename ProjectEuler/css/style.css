@@ -1,0 +1,32 @@
+body{
+  font-family: Sans-Serif;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color:#dddddd;
+}
+
+#topbar{
+  background-color: #bbbbbb;
+  height: 40px;
+}
+
+#topbar h1{
+  margin: auto;
+  text-align: center;
+}
+
+.answerBox{
+  width: 200px;
+  height: 30px;
+  background-color: #dddddd;
+}
+
+.problemArea{
+  border: 1px solid black;
+  width: 1500px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  background-color: #ffffff;
+}
