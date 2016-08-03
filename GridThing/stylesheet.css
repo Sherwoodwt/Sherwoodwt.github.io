@@ -1,0 +1,28 @@
+#container{
+    text-align: center;
+}
+
+#reset{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+#table{
+    display: table;
+    border: 1px solid #0000ff;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    width: 10px;
+    height: 10px;
+    min-height: 10px;
+    background-color: #00ffff;
+    display: table-cell;
+}
