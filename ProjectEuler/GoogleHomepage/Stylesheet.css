@@ -1,0 +1,112 @@
+
+body{
+	margin: 0 0 0 0;
+}
+
+#logo{
+	display:block;
+	margin:auto;
+	margin-top:200px;
+}
+
+#textbox{
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	height: 30px;
+	width: 500px;
+	font-size:16px;
+	border:1px solid #dddddd;
+}
+
+#textbox:hover{
+	border-color: #bbbbbb;
+}
+
+#buttonContainer{
+	width:500px;
+	display:block;
+	margin:auto;
+}
+
+#innerContainer{
+	width:240px;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
+
+#innerContainer button{
+	display:inline;
+	width:120;
+	margin: 0px 4px 0px 4px;
+	height:30px;
+	border: 1px solid white;
+	background-color:#eeeeee;
+	font-family: sans-serif;
+	font-color: #bbbbbb;
+}
+
+#innerContainer button:hover{
+	background-color: #efefef;
+	border: 1px solid black;
+}
+
+.toolbar{
+	height:50px;
+}
+
+.toolbarList{
+	float:right;
+	height:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.toolbarList img{
+	height:40px;
+}
+
+.toolbarListItem{
+	display:inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.toolbarListItem a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size:16px;
+}
+
+#topBar a{
+		color: #bbbbbb;
+}
+
+.toolbarListItem a:hover{
+	text-decoration: underline;
+	color: #999999;
+}
+
+#bottomBar{
+	display:block;
+	position:absolute;
+	clear:both;
+	background-color:#dddddd;
+	bottom:0;
+	width:100%;
+	vertical-align: middle;
+}
+
+#bottomListLeft{
+	float:left;
+}
+
+#bottomListRight{
+	float:right;
+}
+
+#bottomBar a{
+	color: #999999;
+}
